@@ -364,6 +364,7 @@ def update_notes_table(notes_data):
 
 # Initialize Dash app
 app = Dash(__name__, suppress_callback_exceptions=True)
+server = app.server
 app.layout = html.Div([
     html.H1("QHBW Grouting Data QC Tool"),
     
